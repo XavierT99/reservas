@@ -32,10 +32,15 @@
 |------
 |Columna|Tipo|Nulo|Predeterminado
 |------
-|//**ID_cliente**//|int(11)|No|
-|//**ID_reserva**//|int(11)|No|
+|//**ID_reservas_clientes**//|int(11)|No|
+|ID_reservas|int(11)|No|
+|ID_clientes|int(11)|No|
 == Volcado de datos para la tabla reserva_clientes
 
+|1|1|1003677091
+|2|1|1003677091
+|3|1|1003677091
+|4|1|1003677091
 == Estructura de tabla para la tabla roles
 
 |------
@@ -63,4 +68,6 @@
 |//**ID_usuario**//|int(11)|No|
 |//**ID_rol**//|int(11)|No|
 == Volcado de datos para la tabla usuario_roles
+
+
 
