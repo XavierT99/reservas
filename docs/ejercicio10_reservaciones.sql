@@ -12,6 +12,7 @@
 |Direccion|varchar(255)|Sí|NULL
 == Volcado de datos para la tabla cliente
 
+|12335484|matias|matias@gmail.com|12345|ibarra
 |1003677091|Xavier Torres|xavier-torres99@hotmail.com|0996823993|Ibarra
 == Estructura de tabla para la tabla reserva
 
@@ -34,3 +35,32 @@
 |//**ID_cliente**//|int(11)|No|
 |//**ID_reserva**//|int(11)|No|
 == Volcado de datos para la tabla reserva_clientes
+
+== Estructura de tabla para la tabla roles
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_rol**//|int(11)|No|
+|Nombre_rol|varchar(255)|No|
+== Volcado de datos para la tabla roles
+
+== Estructura de tabla para la tabla usuarios
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_usuario**//|int(11)|No|
+|Nombre_usuario|varchar(255)|No|
+|Contrasena|varchar(255)|No|
+== Volcado de datos para la tabla usuarios
+
+== Estructura de tabla para la tabla usuario_roles
+
+|------
+|Columna|Tipo|Nulo|Predeterminado
+|------
+|//**ID_usuario**//|int(11)|No|
+|//**ID_rol**//|int(11)|No|
+== Volcado de datos para la tabla usuario_roles
+

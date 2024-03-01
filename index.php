@@ -13,7 +13,7 @@
 </head>
  <body><div class="jumbotron text-center">
   <h1>SISTEMA DE RESERVAS</h1>
-  <p>Ejercicio 10 Javier Torres 😁</p> 
+  <p>Ejercicio 10 Xavier Torres 😁</p> 
 </div>
 
 <div class="container">
