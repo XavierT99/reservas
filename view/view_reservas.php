@@ -20,5 +20,10 @@
         Habitación: <input type="number" name="Habitacion" required><br>
         <input type="submit" value="Agregar Reserva">
     </form>
+    <div class="col-sm-4">
+       <h3>Regresar</h3>
+       <a href="index.php" target="_blank"> <button class='btn'>  <i class='bx bxs-castle'></i></button></a>
+     
+    </div>
 </body>
 </html>

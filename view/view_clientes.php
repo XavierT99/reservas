@@ -35,7 +35,11 @@
 
         <input type="submit" value="Agregar Cliente">
     </form>
+    <div class="col-sm-4">
+       <h3>Regresar</h3>
+       <a href="index.php" target="_blank"> <button class='btn'>  <i class='bx bxs-castle'></i></button></a>
+     
+    </div>
 </body>
 </html>
 
-<!-- https://www.w3schools.com/bootstrap/bootstrap_forms.asp -->
