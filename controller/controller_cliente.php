@@ -17,6 +17,7 @@ include_once './models/model_cliente.php';
     $Direccion = $_POST['Direccion'];
 
     $clienteModel->agregarCliente($ID_cliente, $Nombre, $Email, $Telefono, $Direccion);
+    $clienteModel->actualizarCliente($ID_cliente, $Nombre, $Email, $Telefono, $Direccion);
 }
 
  include './view/view_clientes.php';   
