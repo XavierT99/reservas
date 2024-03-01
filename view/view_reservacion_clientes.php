@@ -19,18 +19,20 @@
 
     <h2>Agregar Reservas Clientes</h2>
     <form method="post">
-
     <div class="form-group">
-    <label >ID Reserva:</label>
-    <input type="text" class="form-control"name="ID_reservas" id="ID_reservas" required>
-  </div>
+        <label for="ID_reservas">ID Reserva:</label>
+        <input type="text" class="form-control" name="ID_reservas" id="ID_reservas" required>
+    </div>
     <div class="form-group">
-    <label >ID Cliente:</label>
-    <input type="text" class="form-control"name="ID_cliente" id="ID_cliente" required>
-  </div>
-
-       
-        <input type="submit" value="Agregar Reservas Cliente">
-    </form>
+        <label for="ID_clientes">ID Cliente:</label>
+        <input type="text" class="form-control" name="ID_clientes" id="ID_clientes" required>
+    </div>
+    <input type="submit" value="Agregar Reservas Cliente">
+</form>
+<div class="col-sm-4">
+       <h3>Regresar</h3>
+       <a href="index.php" target="_blank"> <button class='btn'>  <i class='bx bxs-castle'></i></button></a>
+     
+    </div>
 </body>
 </html>
